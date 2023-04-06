@@ -8,7 +8,7 @@
  * @donate 0
  * @website https://github.com/nocontent06
  * @source https://github.com/nocontent06/VenturaDiscordTheme
- * @updateUrl https://github.com/nocontent06/VenturaDiscordTheme/blob/master/Ventura.theme.css
+ * @updateUrl https://nocontent06.github.io/CSS/Ventura.theme.css
  * @invite hyTP8ynDAz
 */
 @import url(https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css);
@@ -18,7 +18,7 @@
 .theme-dark {
 /* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
    To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
-  --dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
+  --dplus-backdrop: url(https://nocontent06.github.io/Ventura_light.jpg);
 
 /* Accent color, used to decorate the UI with colors. */
   --dplus-accent-color-hue: 320;
@@ -35,12 +35,12 @@
   --dplus-background-color-hue: 320;
   --dplus-background-color-saturation-amount: 1;
   --dplus-background-color-lightness-amount: 1;
-  --dplus-background-color-alpha: 0.8;
+  --dplus-background-color-alpha: 0.6;
 }
 
 /* If you use light theme, you can give it unique settings that are separate from dark theme. */
 .theme-light {
-  --dplus-backdrop: url(https://i.imgur.com/3AiL3yN.png);
+  --dplus-backdrop: url(https://nocontent06.github.io/Ventura_light.jpg);
   
   --dplus-accent-color-hue: 320;
   --dplus-accent-color-saturation: 60%;
@@ -61,7 +61,7 @@
 /* Fonts */
 /* You can use any installed font on your device. */
   --dplus-font-ui: 'Comic Sans MS';
-  --dplus-font-body: 'Roboto';
+  --dplus-font-body: 'Comic Sans MS';
   --dplus-font-header: 'Righteous';
 
 /* Round corner sizes, measured in pixel radius.
